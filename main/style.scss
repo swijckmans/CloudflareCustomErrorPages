@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border-top: 3px solid rgb(243, 128, 32);
+    background: linear-gradient(to bottom);
+} 
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+}
