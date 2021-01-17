@@ -3,29 +3,70 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-div {
+body {
   border-top: 3px solid #f38020;
+  height: 100vh;
+  background: -webkit-gradient(linear, left bottom, right top, from(#d8d8d5), to(#ebe7e7));
+  background: linear-gradient(to right top, #d8d8d5, #ebe7e7);
 }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.sadmessage {
+  margin: 10px;
+  text-align: center;
+}
+
+.sadmessage h1 {
+  line-height: 40px;
+  font-size: 36px;
+}
+
+.sadmessage h2 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.box {
+  display: -ms-grid;
+  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 30%;
+  width: 400px;
+  min-height: 60vh;
+  background-color: white;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius: 2rem;
+}
+
+.logo {
+  margin: 20px auto;
 }
 
 img {
-  margin-left: auto;
-  margin-right: auto;
   width: auto;
   height: 200px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #eaebeb;
+  float: bottom;
+  position: fixed;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
