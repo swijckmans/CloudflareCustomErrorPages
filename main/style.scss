@@ -40,6 +40,7 @@ body {
     background-color: white;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
+    animation: fadeIn ease 1.5s;
 }
 
 .logo {
@@ -47,8 +48,8 @@ body {
 }
 
 .cfcp{
-    padding-left: 25px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 25px;
     padding-top: 10px;
 }
@@ -74,7 +75,7 @@ img {
 footer {
     width: 100%;
     bottom: 0;
-    border-top: 1px solid rgb(234, 235, 235);
+    border-top: 1px solid rgb(23, 23, 23);
     float: bottom;
     position: fixed;
     text-align: center;
@@ -82,3 +83,8 @@ footer {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
