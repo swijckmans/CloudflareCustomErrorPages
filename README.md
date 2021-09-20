@@ -6,3 +6,6 @@ This project offers a few basic designs that you can use to customise your envir
 
 You can find the custom error pages on https://dash.cloudflare.com/.
 Simply navigate to the zone you want to enable them for or change these account wide. via the option in the top bar.
+
+Example:
+https://errorpages.simonwijckmans.com/
